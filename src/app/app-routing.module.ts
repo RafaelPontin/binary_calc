@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ConvertComponent } from './Convert/Convert.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {component: ConvertComponent, path: 'calcular'}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

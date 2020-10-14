@@ -1,0 +1,11 @@
+<div class="container" style="padding: 20px;">
+    <label for="valor">Valor Base 10</label>
+    <input type="text" name="valor"  class="form-control col-8" [(ngModel)]="valor" (input)="calcular()">
+  <div class="container-lg">
+    <br/>
+    <label>Base 2: {{valor2}}</label><br/>
+    <label>Base 8: {{valor8}}</label><br/>
+    <label>Base 10: {{valor10}}</label><br/>
+    <label>Base 16: {{valor16}}</label><br/>
+  </div>
+</div>
